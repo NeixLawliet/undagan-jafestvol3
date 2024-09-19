@@ -1,0 +1,141 @@
+/* Media Queries untuk Responsivitas */
+
+/* Untuk layar perangkat dengan lebar hingga 768px (tablet dan ponsel kecil) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .menu {
+        flex-direction: column;
+        position: static;
+        transform: none;
+        margin-top: 10px;
+    }
+
+    .menu li {
+        margin-bottom: 10px;
+    }
+
+    .hero-section {
+        height: 60vh; /* Kurangi tinggi hero section pada layar kecil */
+    }
+
+    .hero-image {
+        object-fit: cover;
+    }
+
+    .acara-section {
+        padding: 20px;
+    }
+
+    .acara-content h1 {
+        font-size: 2rem; /* Kurangi ukuran font judul */
+    }
+
+    .acara-section p {
+        font-size: 1rem; /* Kurangi ukuran font paragraf */
+    }
+
+    .acara-section hr {
+        width: 80%;
+    }
+
+    .icons .icon {
+        width: 150px;
+        height: 150px;
+    }
+
+    .sponsor-section h1 {
+        font-size: 1.5rem;
+    }
+
+    .carousel-control-prev, .carousel-control-next {
+        width: 30px;
+        height: 30px;
+    }
+
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        width: 15px;
+        height: 15px;
+    }
+
+    .contact-icons {
+        flex-direction: column;
+    }
+
+    .contact-item {
+        margin-bottom: 20px;
+        max-width: none;
+    }
+
+    .contact-icon {
+        font-size: 3rem;
+    }
+}
+
+/* Untuk layar perangkat dengan lebar hingga 576px (ponsel sangat kecil) */
+@media (max-width: 576px) {
+    .navbar {
+        padding: 5px;
+    }
+
+    .logo-container img {
+        height: 50px;
+    }
+
+    .menu {
+        font-size: 0.9rem;
+    }
+
+    .hero-section {
+        height: 50vh; /* Kurangi lebih jauh tinggi hero section pada layar ponsel kecil */
+    }
+
+    .acara-content h1 {
+        font-size: 1.5rem; /* Kurangi lebih jauh ukuran font judul */
+    }
+
+    .acara-section p {
+        font-size: 0.9rem; /* Kurangi lebih jauh ukuran font paragraf */
+    }
+
+    .sponsor-section h1 {
+        font-size: 1.25rem;
+    }
+
+    .carousel-control-prev, .carousel-control-next {
+        width: 25px;
+        height: 25px;
+    }
+
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        width: 12px;
+        height: 12px;
+    }
+
+    .undangan-section {
+        padding: 20px;
+        align-items: center; /* Rata tengah konten pada layar ponsel kecil */
+    }
+
+    .content-overlay {
+        width: 100%;
+        margin-left: 0; /* Hapus margin kiri pada ponsel kecil */
+        text-align: center; /* Rata tengah teks */
+    }
+
+    .undangan-description {
+        font-size: 0.9rem;
+    }
+
+    .contact-item {
+        flex: 1 1 100%;
+    }
+
+    .contact-icon {
+        font-size: 2.5rem;
+    }
+}
