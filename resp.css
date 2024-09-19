@@ -4,12 +4,12 @@
         flex-direction: column;
         padding: 15px;
         height: 10%;
+        width: 500px;
     }
 
     .logo-container {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr); /* 5 logo dalam satu baris */
-        gap: 10px;
+        display: flex;
+        gap: 28px;
         justify-items: center;
         width: 100%; /* Agar logo tidak melampaui lebar layar */
     }
