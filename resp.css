@@ -9,7 +9,7 @@
 
     .logo-container {
         display: flex;
-        gap: 28px;
+        gap: 25px;
         justify-items: center;
         width: 100%; /* Agar logo tidak melampaui lebar layar */
     }
