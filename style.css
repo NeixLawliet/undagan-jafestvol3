@@ -151,7 +151,7 @@ span {
 .sponsor-section {
     padding: 40px 20px;
     text-align: center;
-    background-color: white; /* Background untuk sponsor section */
+    background-color: white; 
     color: white;
 }
 
@@ -199,17 +199,16 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute; /* Posisi absolut untuk mengatur posisi dengan lebih fleksibel */
     top: 50%; /* Atur posisi vertikal tombol */
     transform: translateY(-50%); /* Menyesuaikan tombol sehingga berada di tengah vertikal */
 }
 
 .carousel-control-prev {
-    left: 10px; /* Jarak tombol Prev dari kiri */
+    left: 2px; /* Jarak tombol Prev dari kiri */
 }
 
 .carousel-control-next {
-    right: 10px; /* Jarak tombol Next dari kanan */
+    right: 2px; /* Jarak tombol Next dari kanan */
 }
 
 .carousel-control-prev-icon,
@@ -226,7 +225,7 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     margin-top: 20px;
 }
 

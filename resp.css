@@ -3,6 +3,7 @@
     .navbar {
         flex-direction: column;
         padding: 15px;
+        height: 10%;
     }
 
     .logo-container {
@@ -57,7 +58,7 @@
     }
 
     .sponsor-logo {
-        height: 100px; /* Ukuran sponsor logo lebih kecil */
+        height: 50px; 
     }
 
     .content-overlay {
@@ -83,5 +84,17 @@
     .icon-top-left, .icon-top-right, .icon-bottom-left, .icon-bottom-right{
         width: 90px;
         height: 90px;
+    }
+
+    .carousel-control-next, .carousel-control-prev{
+        width: 15px;
+        height: 15px;
+        top: 70px;
+    }
+    .carousel-control-next{
+        right: 100px;
+    }
+    .carousel-control-prev{
+        left: 100px;
     }
 }
