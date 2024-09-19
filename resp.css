@@ -79,4 +79,9 @@
     footer p {
         font-size: 12px;
     }
+
+    .icon-top-left, .icon-top-right, .icon-bottom-left, .icon-bottom-right{
+        width: 90px;
+        height: 90px;
+    }
 }
