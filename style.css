@@ -390,3 +390,42 @@ footer p{
     margin: 0;
     color: black;
 }
+
+.rute-section {
+    background-color: #0056B3; /* Warna biru sesuai background gambar */
+    padding: 50px 0;
+}
+
+.section-title {
+    font-size: 2em;
+    font-weight: bold;
+    color: white; /* Warna teks "Jalan Sehat" sesuai dengan gambar */
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.rute-image {
+    max-width: 50%;
+    height: auto;
+    border: 3px solid white; /* Border putih di sekitar gambar */
+}
+
+.rundown-section {
+    background-color: white; /* Sama seperti background biru sebelumnya */
+    padding: 50px 0;
+}
+
+.rundown-image {
+    max-width: 50%;
+    height: auto;
+    border: 3px solid white; /* Menambahkan border putih di sekitar gambar */
+}
+
+.section-title {
+    font-size: 2em;
+    font-weight: bold;
+    color: orange; /* Sesuaikan dengan teks rundown */
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
