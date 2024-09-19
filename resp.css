@@ -28,9 +28,7 @@
     }
 
     .menu li {
-        display: block;
-        width: 100%;
-        text-align: center; /* Buat menu rata tengah */
+        display: none;
     }
 
     .menu a {
@@ -48,9 +46,13 @@
         object-fit: cover;
     }
 
+    .sponsor-section{
+        width: 100%;
+    }
+
     /* Other sections */
     .acara-section h1, .sponsor-section h1, .section-title {
-        font-size: 1.5rem; /* Kurangi ukuran judul */
+        font-size: 1rem; /* Kurangi ukuran judul */
     }
 
     .acara-section p, .undangan-description, .contact-section p {
@@ -58,7 +60,7 @@
     }
 
     .sponsor-logo {
-        height: 50px; 
+        height: 60px; 
     }
 
     .content-overlay {
@@ -87,14 +89,14 @@
     }
 
     .carousel-control-next, .carousel-control-prev{
-        width: 15px;
-        height: 15px;
-        top: 70px;
+        width: 20px;
+        height: 20px;
+        top: 30px;
     }
     .carousel-control-next{
-        right: 100px;
+        right: -50px;
     }
     .carousel-control-prev{
-        left: 100px;
+        left: -50px;
     }
 }
